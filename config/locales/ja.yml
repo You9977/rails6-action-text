@@ -5,8 +5,11 @@ jp:
       post:
         attributes:
           title:
-          blank: が空です。
-          too_long: が%{count} 文字を超えています。
+            blank: が空です。
+            too_long: が%{count} 文字を超えています。
+          content:
+            too_long: が%{max_content_length}文字を超えています。[%{length}/%{max_content_length}]
    attributes:
     post:
       title: タイトル
+      content: コンテンツ
